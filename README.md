@@ -1,2 +1,2 @@
-# tsc-lc-crla
+# tsclc.crla
 TSC Learning Commons CRLA Tutor Training
