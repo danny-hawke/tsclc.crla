@@ -1,0 +1,143 @@
+<div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+    <div style="text-align: center; margin-bottom: 3rem;">
+        <h1 style="font-size: 3rem; color: #111827; margin-bottom: 1rem;">TSC Learning Commons</h1>
+        <h2 style="font-size: 1.875rem; color: #374151; margin-bottom: 1rem;">CRLA Tutor Training Platform</h2>
+        <p style="font-size: 1.25rem; color: #4b5563; margin-bottom: 2rem;">Advance your tutoring skills through our comprehensive certification program</p>
+        <div style="background-color: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 1.5rem; margin: 2rem auto; max-width: 48rem;">
+            <h3 style="color: #1e40af; margin-bottom: 0.5rem;">Welcome to Your Training Journey!</h3>
+            <p style="color: #1e40af;">Start with Level 1 to build your foundation in tutoring excellence. Each level builds upon the previous one to develop your skills progressively.</p>
+        </div>
+        <div style="text-align: center; margin-bottom: 2rem;">
+            <h3 style="color: #1f2937; margin-bottom: 1rem;">Training Navigation</h3>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-bottom: 1rem;"><a style="display: inline-block; background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none;" href="#level1">Level 1 Training</a> <a style="display: inline-block; background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none;" href="#level2">Level 2 Training</a> <a style="display: inline-block; background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none;" href="#level3">Level 3 Training</a></div>
+            <p style="font-size: 0.875rem; color: #4b5563;">Note: In Canvas, these will link to separate training pages</p>
+        </div>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
+        <div style="background: white; border-radius: 12px; overflow: hidden; cursor: pointer;">
+            <div style="background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 1.5rem;">
+                <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: white;">Level 1</h3>
+                <p style="margin-bottom: 0;">Knowledge and Comprehension</p>
+            </div>
+            <div style="padding: 1.5rem;">
+                <div style="margin-bottom: 1rem;">
+                    <div style="width: 100%; background-color: #e5e7eb; border-radius: 9999px; height: 8px; margin-bottom: 0.5rem;">
+                        <div id="level1ProgressBar" style="height: 8px; border-radius: 9999px; background-color: #3b82f6; width: 0%;"></div>
+                    </div>
+                </div>
+                <div style="font-size: 0.75rem; color: #6b7280;">
+                    <p><strong>Duration:</strong> 10 hours</p>
+                    <p><strong>TIS Credits:</strong> 5</p>
+                    <p><strong>Direct Student Interactions:</strong> 25 hours</p>
+                    <p style="margin-top: 1rem;"><span id="level1Progress">0 of 11</span> modules completed</p>
+                </div>
+                <div style="margin-top: 1rem;"><a style="display: block; text-align: center; background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none;" href="#level1">Start Level 1</a></div>
+            </div>
+        </div>
+        <div id="level2Card" style="background: white; border-radius: 12px; overflow: hidden; cursor: not-allowed;">
+            <div style="background: linear-gradient(135deg, #8b5cf6, #7c3aed); color: white; padding: 1.5rem;">
+                <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: white;">Level 2</h3>
+                <p style="margin-bottom: 0;">Application and Analysis</p>
+            </div>
+            <div style="padding: 1.5rem;">
+                <div style="margin-bottom: 1rem;">
+                    <div style="width: 100%; background-color: #e5e7eb; border-radius: 9999px; height: 8px; margin-bottom: 0.5rem;">
+                        <div id="level2ProgressBar" style="height: 8px; border-radius: 9999px; background-color: #8b5cf6; width: 0%;"></div>
+                    </div>
+                </div>
+                <div style="font-size: 0.75rem; color: #6b7280;">
+                    <p><strong>Duration:</strong> 10 hours</p>
+                    <p><strong>TIS Credits:</strong> 5</p>
+                    <p><strong>Direct Student Interaction:</strong> 25 hours</p>
+                    <p style="margin-top: 1rem;"><span id="level2Progress">0 of 10</span> modules completed</p>
+                </div>
+                <div id="level2Button" style="margin-top: 1rem;"><span style="font-size: 0.75rem; background-color: #e5e7eb; color: #4b5563; padding: 0.25rem 0.75rem; border-radius: 9999px; display: inline-block;">Complete Level 1 to unlock</span></div>
+            </div>
+        </div>
+        <div id="level3Card" style="background: white; border-radius: 12px; overflow: hidden; cursor: not-allowed;">
+            <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 1.5rem;">
+                <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: white;">Level 3</h3>
+                <p style="margin-bottom: 0;">Evaluation and Mastery</p>
+            </div>
+            <div style="padding: 1.5rem;">
+                <div style="margin-bottom: 1rem;">
+                    <div style="width: 100%; background-color: #e5e7eb; border-radius: 9999px; height: 8px; margin-bottom: 0.5rem;">
+                        <div id="level3ProgressBar" style="height: 8px; border-radius: 9999px; background-color: #10b981; width: 0%;"></div>
+                    </div>
+                </div>
+                <div style="font-size: 0.75rem; color: #6b7280;">
+                    <p><strong>Duration:</strong> 10 hours</p>
+                    <p><strong>TIS Credits:</strong> 5</p>
+                    <p><strong>Direct Student Interaction:</strong> 25 hours</p>
+                    <p style="margin-top: 1rem;"><span id="level3Progress">0 of 12</span> modules completed</p>
+                </div>
+                <div id="level3Button" style="margin-top: 1rem;"><span style="font-size: 0.75rem; background-color: #e5e7eb; color: #4b5563; padding: 0.25rem 0.75rem; border-radius: 9999px; display: inline-block;">Complete Level 2 to unlock</span></div>
+            </div>
+        </div>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
+        <div style="background: white; border-radius: 8px; padding: 1.5rem; text-align: center;">
+            <div id="dashboardModulesCompleted" style="font-size: 1.5rem; color: #3b82f6; margin-bottom: 0.5rem;">0</div>
+            <div style="color: #4b5563; font-size: 0.875rem;">Modules Completed</div>
+        </div>
+        <div style="background: white; border-radius: 8px; padding: 1.5rem; text-align: center;">
+            <div id="dashboardHoursTrained" style="font-size: 1.5rem; color: #8b5cf6; margin-bottom: 0.5rem;">0</div>
+            <div style="color: #4b5563; font-size: 0.875rem;">Hours Trained</div>
+        </div>
+        <div style="background: white; border-radius: 8px; padding: 1.5rem; text-align: center;">
+            <div id="dashboardCertificates" style="font-size: 1.5rem; color: #10b981; margin-bottom: 0.5rem;">0</div>
+            <div style="color: #4b5563; font-size: 0.875rem;">Certificates Earned</div>
+        </div>
+        <div style="background: white; border-radius: 8px; padding: 1.5rem; text-align: center;">
+            <div id="dashboardTISCredits" style="font-size: 1.5rem; color: #f59e0b; margin-bottom: 0.5rem;">0</div>
+            <div style="color: #4b5563; font-size: 0.875rem;">TIS Credits</div>
+        </div>
+    </div>
+    <div style="background: white; border-radius: 12px; padding: 2rem;">
+        <h3 style="color: #1f2937; margin-bottom: 1rem;">Recent Activity</h3>
+        <div id="recentActivityList">
+            <div style="text-align: center; padding: 2rem 0; color: #6b7280;">
+                <p>No recent activity. Start your first training module to see your progress here!</p>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: #fffbeb; border: 1px solid #fed7aa; border-radius: 8px; padding: 1.5rem; margin-top: 2rem;">
+        <h3 style="color: #92400e; margin-bottom: 0.5rem;">📚 Canvas Navigation Instructions</h3>
+        <p style="color: #92400e;">This dashboard provides an overview of your CRLA training progress. To access the actual training modules:</p>
+        <ol style="padding-left: 1.25rem; color: #92400e;">
+            <li>Use the navigation links above or click the level cards</li>
+            <li>Each level has its own dedicated Canvas page with interactive modules</li>
+            <li>Your progress is automatically saved as you complete modules</li>
+            <li>Return to this dashboard anytime to check your overall progress</li>
+        </ol>
+    </div>
+    <footer style="margin-top: 4rem; padding: 2rem 0; border-top: 1px solid #e5e7eb;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+            <div>
+                <h3 style="color: #1f2937; margin-bottom: 1rem;">Training Levels</h3>
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li style="margin-bottom: 0.5rem;"><a style="color: #3b82f6; text-decoration: none;" href="#level1">Level 1 Training</a></li>
+                    <li style="margin-bottom: 0.5rem;"><a style="color: #3b82f6; text-decoration: none;" href="#level2">Level 2 Training</a></li>
+                    <li style="margin-bottom: 0.5rem;"><a style="color: #3b82f6; text-decoration: none;" href="#level3">Level 3 Training</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 style="color: #1f2937; margin-bottom: 1rem;">Resources</h3>
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li style="margin-bottom: 0.5rem;"><a style="color: #3b82f6; text-decoration: none;" href="https://cdn.ymaws.com/crla.net/resource/resmgr/soas/crla_ittpc_standards_outcome.pdf" target="_blank" rel="noopener">CRLA Standards</a></li>
+                    <li style="margin-bottom: 0.5rem;"><a style="color: #3b82f6; text-decoration: none;" href="https://crla.net/page/ittpcrequirements" target="_blank" rel="noopener">CRLA Requirements</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 style="color: #1f2937; margin-bottom: 1rem;">Contact Us</h3>
+                <ul style="list-style: none; padding: 0; margin: 0; color: #4b5563;">
+                    <li>Email: learning.commons@tsc.fl.edu</li>
+                    <li>Location: Building LC 30</li>
+                </ul>
+            </div>
+        </div>
+        <div style="border-top: 1px solid #e5e7eb; margin-top: 2rem; padding-top: 2rem; text-align: center;">
+            <p style="color: #6b7280; margin: 0;">2025 TSC Learning Commons - CRLA Tutor Training. All rights reserved.</p>
+        </div>
+    </footer>
+</div>
