@@ -1,0 +1,310 @@
+<div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+    <div style="margin-bottom: 2rem;"><a style="display: inline-block; background: linear-gradient(135deg, #6b7280, #4b5563); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; margin: 5px; border: none; cursor: pointer;" href="#dashboard">&larr; Back to Dashboard</a></div>
+    <div style="text-align: center; margin-bottom: 2rem;">
+        <h1 style="font-size: 2.5rem; color: #111827; margin-bottom: 1rem;">Level 2 Training - Advanced Tutor</h1>
+        <p style="font-size: 1.25rem; color: #4b5563; margin-bottom: 1.5rem;">Advanced tutoring techniques and specialized skills for experienced tutors</p>
+        <div style="background: white; border-radius: 12px; overflow: hidden; padding: 1.5rem; margin-bottom: 2rem; max-width: 48rem; margin-left: auto; margin-right: auto;">
+            <h3 style="color: #1f2937; margin-bottom: 1rem;">Overall Level 2 Progress</h3>
+            <div style="width: 100%; background-color: #e5e7eb; border-radius: 9999px; height: 16px; margin-bottom: 0.5rem;">
+                <div id="level2OverallProgress" style="height: 16px; border-radius: 9999px; background: linear-gradient(to right, #8b5cf6, #ec4899); width: 0%;"></div>
+            </div>
+            <p style="font-size: 0.875rem; color: #4b5563;"><span id="level2CompletedModules">0</span> of <span id="level2RequiredModules">10</span> required modules completed</p>
+            <div style="margin-top: 1rem; font-size: 0.875rem; color: #6b7280;">
+                <p><strong>Total Training:</strong> 10 hours &bull; <strong>TIS Credits:</strong> 5 &bull; <strong>Direct Student Interaction:</strong> 25 hours</p>
+            </div>
+        </div>
+        <div style="background-color: #faf5ff; border: 1px solid #e9d5ff; border-radius: 8px; padding: 1.5rem; margin: 2rem auto; max-width: 48rem;">
+            <h3 style="color: #7c3aed; margin-bottom: 0.5rem;">Prerequisites</h3>
+            <p style="color: #7c3aed;">✓ Level 1 Certification Complete</p>
+            <p style="color: #7c3aed;">✓ 25 hours of direct student interaction required</p>
+        </div>
+    </div>
+    <div style="display: grid; gap: 2rem;">
+        <div style="background: white; border-radius: 12px; overflow: hidden;">
+            <div style="background: linear-gradient(135deg, #8b5cf6, #7c3aed); color: white; padding: 1.5rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h2 style="font-size: 1.5rem; color: white; margin-bottom: 0.5rem;">Basics</h2>
+                        <p style="margin-bottom: 0; color: #e9d5ff;">Complete 3 of 4 modules</p>
+                    </div>
+                    <div style="text-align: right;">
+                        <div id="level2BasicsCount" style="font-size: 1.875rem;">0/3</div>
+                        <div style="font-size: 0.875rem;">Required</div>
+                    </div>
+                </div>
+                <div style="width: 100%; background-color: #8b5cf6; border-radius: 9999px; height: 8px; margin-top: 1rem;">
+                    <div id="level2BasicsProgress" style="height: 8px; border-radius: 9999px; background-color: white; width: 0%;"></div>
+                </div>
+            </div>
+            <div style="padding: 1.5rem; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+                <div style="background: #fef2f2; border: 2px solid transparent; border-radius: 8px; padding: 1rem; cursor: pointer;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Review of Level 1 Topics</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Comprehensive review and reinforcement of foundational concepts</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required Module</span>
+                        <div id="review-level1-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    </div>
+                    <div id="review-level1-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
+                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Reinforce and deepen understanding of foundational tutoring concepts from Level 1 training.</p>
+                        <ul style="margin: 0.75rem 0; padding-left: 1.25rem; font-size: 0.875rem; color: #4b5563;">
+                            <li style="margin-bottom: 0.25rem;">&bull; Review role of the tutor and session management</li>
+                            <li style="margin-bottom: 0.25rem;">&bull; Reinforce communication and questioning skills</li>
+                            <li style="margin-bottom: 0.25rem;">&bull; Advanced application of basic concepts</li>
+                            <li style="margin-bottom: 0.25rem;">&bull; Integration of Level 1 learning outcomes</li>
+                        </ul>
+                        Mark Complete
+                    </div>
+                </div>
+                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Establishing Boundaries</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Setting appropriate professional boundaries in tutoring relationships</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
+                        <div id="establish-boundaries-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    </div>
+                    <div id="establish-boundaries-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
+                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Learn to establish and maintain appropriate professional boundaries in tutoring relationships.</p>
+                        Mark Complete
+                    </div>
+                </div>
+                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Use of Probing Questions</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Advanced questioning techniques to deepen student understanding</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
+                        <div id="probing-questions-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    </div>
+                    <div id="probing-questions-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
+                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Master advanced questioning techniques that probe deeper into student understanding.</p>
+                        Mark Complete
+                    </div>
+                </div>
+                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Motivational Techniques</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Strategies to inspire and motivate students in their learning journey</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
+                        <div id="motivational-techniques-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    </div>
+                    <div id="motivational-techniques-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
+                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Learn strategies to motivate and inspire students to achieve their academic goals.</p>
+                        Mark Complete
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background: white; border-radius: 12px; overflow: hidden;">
+            <div style="background: linear-gradient(135deg, #8b5cf6, #7c3aed); color: white; padding: 1.5rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h2 style="font-size: 1.5rem; color: white; margin-bottom: 0.5rem;">Communication</h2>
+                        <p style="margin-bottom: 0; color: #e9d5ff;">Complete 2 of 3 modules</p>
+                    </div>
+                    <div style="text-align: right;">
+                        <div id="level2CommunicationCount" style="font-size: 1.875rem;">0/2</div>
+                        <div style="font-size: 0.875rem;">Required</div>
+                    </div>
+                </div>
+                <div style="width: 100%; background-color: #8b5cf6; border-radius: 9999px; height: 8px; margin-top: 1rem;">
+                    <div id="level2CommunicationProgress" style="height: 8px; border-radius: 9999px; background-color: white; width: 0%;"></div>
+                </div>
+            </div>
+            <div style="padding: 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Role Modeling</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Demonstrating effective learning behaviors and professional conduct</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
+                        <div id="role-modeling-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    </div>
+                    <div id="role-modeling-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
+                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Learn how to model positive behaviors and study strategies for students.</p>
+                        Mark Complete
+                    </div>
+                </div>
+                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Working with Faculty/Staff</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Building effective relationships with instructors and staff members</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
+                        <div id="working-faculty-staff-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    </div>
+                    <div id="working-faculty-staff-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
+                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Develop professional relationships with faculty and staff to better support students.</p>
+                        Mark Complete
+                    </div>
+                </div>
+                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Working with Specific Populations</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Adapting tutoring approaches for diverse student populations</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
+                        <div id="working-specific-populations-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    </div>
+                    <div id="working-specific-populations-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
+                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Understand how to adapt tutoring for different student populations and learning needs.</p>
+                        Mark Complete
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background: white; border-radius: 12px; overflow: hidden;">
+            <div style="background: linear-gradient(135deg, #8b5cf6, #7c3aed); color: white; padding: 1.5rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h2 style="font-size: 1.5rem; color: white; margin-bottom: 0.5rem;">Learning or Studying</h2>
+                        <p style="margin-bottom: 0; color: #e9d5ff;">Complete 3 of 4 modules</p>
+                    </div>
+                    <div style="text-align: right;">
+                        <div id="level2LearningCount" style="font-size: 1.875rem;">0/3</div>
+                        <div style="font-size: 0.875rem;">Required</div>
+                    </div>
+                </div>
+                <div style="width: 100%; background-color: #8b5cf6; border-radius: 9999px; height: 8px; margin-top: 1rem;">
+                    <div id="level2LearningProgress" style="height: 8px; border-radius: 9999px; background-color: white; width: 0%;"></div>
+                </div>
+            </div>
+            <div style="padding: 1.5rem; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Assessing &amp; Changing Study Behaviors</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Evaluating and improving student study habits and techniques</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
+                        <div id="assessing-study-behaviors-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    </div>
+                    <div id="assessing-study-behaviors-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
+                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Learn to evaluate and improve student study habits and learning techniques.</p>
+                        Mark Complete
+                    </div>
+                </div>
+                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Assessing the Tutee's Needs</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Identifying and addressing individual student learning requirements</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
+                        <div id="assessing-tutee-needs-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    </div>
+                    <div id="assessing-tutee-needs-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
+                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Learn to identify and address individual student learning requirements effectively.</p>
+                        Mark Complete
+                    </div>
+                </div>
+                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Critical Thinking Skills</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Developing and teaching analytical and evaluative thinking</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
+                        <div id="critical-thinking-skills-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    </div>
+                    <div id="critical-thinking-skills-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
+                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Develop skills for teaching analytical and evaluative thinking to students.</p>
+                        Mark Complete
+                    </div>
+                </div>
+                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Note Taking in the Disciplines</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Subject-specific note-taking strategies and techniques</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
+                        <div id="note-taking-disciplines-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    </div>
+                    <div id="note-taking-disciplines-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
+                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Learn subject-specific note-taking strategies and techniques for different disciplines.</p>
+                        Mark Complete
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background: white; border-radius: 12px; overflow: hidden;">
+            <div style="background: linear-gradient(135deg, #8b5cf6, #7c3aed); color: white; padding: 1.5rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h2 style="font-size: 1.5rem; color: white; margin-bottom: 0.5rem;">Ethics and Equity</h2>
+                        <p style="margin-bottom: 0; color: #e9d5ff;">Complete 1 of 1 modules</p>
+                    </div>
+                    <div style="text-align: right;">
+                        <div id="level2EthicsCount" style="font-size: 1.875rem;">0/1</div>
+                        <div style="font-size: 0.875rem;">Required</div>
+                    </div>
+                </div>
+                <div style="width: 100%; background-color: #8b5cf6; border-radius: 9999px; height: 8px; margin-top: 1rem;">
+                    <div id="level2EthicsProgress" style="height: 8px; border-radius: 9999px; background-color: white; width: 0%;"></div>
+                </div>
+            </div>
+            <div style="padding: 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
+                <div style="background: #fef2f2; border: 2px solid transparent; border-radius: 8px; padding: 1rem; cursor: pointer;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Universal Design for Learning</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Creating inclusive learning environments for all students</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required Module</span>
+                        <div id="universal-design-learning-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    </div>
+                    <div id="universal-design-learning-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
+                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Learn principles of Universal Design for Learning to create inclusive tutoring environments.</p>
+                        <ul style="margin: 0.75rem 0; padding-left: 1.25rem; font-size: 0.875rem; color: #4b5563;">
+                            <li style="margin-bottom: 0.25rem;">&bull; Multiple means of representation</li>
+                            <li style="margin-bottom: 0.25rem;">&bull; Multiple means of engagement</li>
+                            <li style="margin-bottom: 0.25rem;">&bull; Multiple means of action and expression</li>
+                            <li style="margin-bottom: 0.25rem;">&bull; Accommodating diverse learning needs</li>
+                        </ul>
+                        Mark Complete
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background: white; border-radius: 12px; overflow: hidden;">
+            <div style="background: linear-gradient(135deg, #8b5cf6, #7c3aed); color: white; padding: 1.5rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h2 style="font-size: 1.5rem; color: white; margin-bottom: 0.5rem;">Required Electives</h2>
+                        <p style="margin-bottom: 0; color: #e9d5ff;">Complete 1 of 1 modules</p>
+                    </div>
+                    <div style="text-align: right;">
+                        <div id="level2ElectivesCount" style="font-size: 1.875rem;">0/1</div>
+                        <div style="font-size: 0.875rem;">Required</div>
+                    </div>
+                </div>
+                <div style="width: 100%; background-color: #8b5cf6; border-radius: 9999px; height: 8px; margin-top: 1rem;">
+                    <div id="level2ElectivesProgress" style="height: 8px; border-radius: 9999px; background-color: white; width: 0%;"></div>
+                </div>
+            </div>
+            <div style="padding: 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
+                <div style="background: #fef2f2; border: 2px solid transparent; border-radius: 8px; padding: 1rem; cursor: pointer;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Challenging Job Situations</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Handling difficult tutoring scenarios effectively</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required Module</span>
+                        <div id="challenging-situations-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    </div>
+                    <div id="challenging-situations-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #8b5cf6;">
+                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
+                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Learn strategies for handling difficult tutoring scenarios and challenging situations.</p>
+                        <ul style="margin: 0.75rem 0; padding-left: 1.25rem; font-size: 0.875rem; color: #4b5563;">
+                            <li style="margin-bottom: 0.25rem;">&bull; Dealing with uncooperative students</li>
+                            <li style="margin-bottom: 0.25rem;">&bull; Managing time constraints</li>
+                            <li style="margin-bottom: 0.25rem;">&bull; Handling emotional situations</li>
+                            <li style="margin-bottom: 0.25rem;">&bull; Professional conflict resolution</li>
+                        </ul>
+                        Mark Complete
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 3rem; text-align: center;">
+        <div id="level2CompletionMessage" style="display: none; background-color: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; padding: 1rem 1.5rem; border-radius: 8px; max-width: 48rem; margin: 0 auto;">
+            <h3 style="color: #166534; font-size: 1.125rem; margin-bottom: 0.5rem;">🎉 Congratulations!</h3>
+            <p style="color: #166534; margin-bottom: 1rem;">You've finished all required training for Level 2 certification. Next step: request a <strong>Badge &amp; Certification Review</strong> to confirm whether you've met the 25-hour benchmark for direct student engagement.</p>
+            Return to Dashboard
+        </div>
+    </div>
+    <div style="background-color: #faf5ff; border: 1px solid #e9d5ff; border-radius: 8px; padding: 1.5rem; margin: 2rem auto; max-width: 48rem;">
+        <h3 style="color: #7c3aed; margin-bottom: 0.5rem;">📘 Level 2 Canvas Instructions</h3>
+        <p style="color: #7c3aed;">Level 2 builds upon your Level 1 foundation with advanced tutoring techniques.</p>
+        <ul style="color: #7c3aed; padding-left: 1.25rem;">
+            <li>You must complete Level 1 before accessing Level 2 modules</li>
+            <li>Some modules are marked as "Required" and must be completed</li>
+            <li>Choose from elective options to meet the required count for each category</li>
+            <li>Progress is automatically saved and synced with the dashboard</li>
+        </ul>
+    </div>
+</div>
