@@ -1,0 +1,55 @@
+<div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+    <div style="margin-bottom: 2rem; display: flex; gap: 1rem;"><a style="display: inline-block; background: linear-gradient(135deg, #6b7280, #4b5563); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; cursor: pointer; border: medium none currentcolor;" href="https://tscfl.instructure.com/courses/69042/pages/level-3-page" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/level-3-page" data-api-returntype="Page">&larr; Back to Level 3</a> <a style="display: inline-block; background: linear-gradient(135deg, #6b7280, #4b5563); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; cursor: pointer; border: medium none currentcolor;" href="https://tscfl.instructure.com/courses/69042/pages/training-dashboard" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/training-dashboard" data-api-returntype="Page">&larr; Dashboard</a></div>
+    <div style="font-size: 0.875rem; color: #6b7280; margin-bottom: 2rem;"><a style="color: #059669; text-decoration: none;" href="https://tscfl.instructure.com/courses/69042/pages/training-dashboard" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/training-dashboard" data-api-returntype="Page">Dashboard</a> <span> / </span> <a style="color: #059669; text-decoration: none;" href="https://tscfl.instructure.com/courses/69042/pages/level-3-page" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/level-3-page" data-api-returntype="Page">Level 3</a> <span> / </span> <span id="moduleName">Module Name</span></div>
+    <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; border-radius: 12px; padding: 3rem 2rem; margin-bottom: 3rem; text-align: center;">
+        <h1 id="moduleTitle" style="font-size: 2.5rem; margin: 0 0 1rem 0; color: white;">Motivational Techniques</h1>
+        <p id="moduleDescription" style="font-size: 1.125rem; color: #d1fae5; margin: 0;">Strategies to inspire and motivate students in their learning journey.</p>
+    </div>
+    <div style="background: white; border-radius: 12px; padding: 2rem; margin-bottom: 3rem; border: 1px solid #e5e7eb;">
+        <h2 style="color: #1f2937; margin-top: 0; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 2px solid #e5e7eb;"><span aria-hidden="true">📚</span> <span>Course Content</span></h2>
+        <div style="color: #4b5563; line-height: 1.6;">
+            <p>This module covers the advanced skills for recognizing when a student needs support beyond tutoring and outlines strategies to help students become self-motivated to learn and succeed.</p>
+            <div style="margin: 2rem 0;">
+                <h3 style="color: #1f2937; margin-bottom: 1rem;"><span aria-hidden="true">📊</span> <span>Training Presentation</span></h3>
+                <div style="background: #f9fafb; border-radius: 12px; overflow: hidden; text-align: center; border: 2px solid #e5e7eb;"><iframe title="Training Presentation: Motivational Techniques Module - Microsoft Office Document" src="https://tscfledu.sharepoint.com/sites/inet/d/aa/lc/_layouts/15/Doc.aspx?sourcedoc={f58fff80-6313-40bb-862b-a95e891d1d28}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="900px" height="560px" loading="lazy"></iframe></div>
+            </div>
+            <div style="margin-top: 2rem; padding: 1.5rem; background: #f0fdf4; border-left: 4px solid #10b981; border-radius: 6px;">
+                <p style="margin-top: 0;"><strong>Topics covered:</strong></p>
+                <ul style="margin: 0.5rem 0 0 1.5rem; padding: 0;">
+                    <li>Common motivational barriers</li>
+                    <li>ARCS Model and its applications</li>
+                    <li>SMARTER goals and backward design</li>
+                    <li>Metacognitive prompting techniques</li>
+                    <li>Reframing and error‑normalizing</li>
+                    <li>Adapting strategies based on student cues</li>
+                    <li>Building rapport to support motivation</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="background: white; border-radius: 12px; padding: 2rem; margin-bottom: 3rem; border: 1px solid #e5e7eb;">
+    <h2 style="color: #1f2937; margin-top: 0; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 2px solid #e5e7eb;"><span aria-hidden="true">📋</span> <span>Assignments</span></h2>
+    <div style="display: grid; gap: 1.5rem;">
+        <div style="background: #f9fafb; border-radius: 12px; padding: 1rem 1.25rem; border: 2px solid #e5e7eb;">
+            <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem;">
+                <h3 style="color: #1f2937; margin: 0; font-size: 1.125rem;">Motivational Techniques Activity</h3>
+                <a style="display: inline-block; background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 8px 16px; border-radius: 6px; font-size: 0.875rem; white-space: nowrap; text-decoration: none; cursor: pointer;" href="https://tscfl.instructure.com/courses/69042/assignments/2141293" target="_blank" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/assignments/2141293" data-api-returntype="Assignment" rel="noopener">View Assignment &rarr;</a>
+            </div>
+            <p style="color: #6b7280; margin: 0.35rem 0 0 0; font-size: 0.875rem;"><span aria-hidden="true">📄</span> <span>Complete the motivational techniques activity</span></p>
+        </div>
+    </div>
+</div>
+<div style="background: white; border-radius: 12px; padding: 2rem; margin-bottom: 3rem; border: 1px solid #e5e7eb;">
+    <h2 style="color: #1f2937; margin-top: 0; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 2px solid #e5e7eb;"><span aria-hidden="true">✅</span> <span>Assessments</span></h2>
+    <div style="display: grid; gap: 1.5rem;">
+        <div style="background: #f9fafb; border-radius: 12px; padding: 1rem 1.25rem; border: 2px solid #e5e7eb;">
+            <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem;">
+                <h3 style="color: #1f2937; margin: 0; font-size: 1.125rem;">Motivational Techniques Discussion</h3>
+                <a style="display: inline-block; background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 8px 16px; border-radius: 6px; font-size: 0.875rem; white-space: nowrap; text-decoration: none; cursor: pointer;" href="https://tscfl.instructure.com/courses/69042/discussion_topics/929890" target="_blank" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/discussion_topics/929890" data-api-returntype="Discussion" rel="noopener">View Discussion &rarr;</a>
+            </div>
+            <p style="color: #6b7280; margin: 0.35rem 0 0 0; font-size: 0.875rem;"><span aria-hidden="true">💬</span> <span>Participate in the motivational techniques discussion</span></p>
+        </div>
+    </div>
+</div>
+<div style="margin-top: 3rem; text-align: center;"><a style="display: inline-block; background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; cursor: pointer; border: medium none currentcolor;" href="https://tscfl.instructure.com/courses/69042/pages/level-3-page" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/level-3-page" data-api-returntype="Page">&larr; Back to Level 3</a></div>

@@ -1,23 +1,52 @@
-<p>Level 1 Training - TSC Learning Commons CRLA</p>
+<style>
+/* button-hover-cue: Canvas-friendly hover and focus styling */
+a[style*="background: linear-gradient"][style*="padding: 12px 24px"],
+a[style*="background:linear-gradient"][style*="padding: 12px 24px"] {
+    transition: box-shadow 0.18s ease, transform 0.18s ease, filter 0.18s ease;
+}
+a[style*="background: linear-gradient"][style*="padding: 12px 24px"]:hover,
+a[style*="background: linear-gradient"][style*="padding: 12px 24px"]:focus-visible,
+a[style*="background:linear-gradient"][style*="padding: 12px 24px"]:hover,
+a[style*="background:linear-gradient"][style*="padding: 12px 24px"]:focus-visible {
+    box-shadow: 0 10px 22px rgba(15, 23, 42, 0.25);
+    transform: translateY(-1px);
+    filter: brightness(1.03);
+    outline: none;
+}
+a[aria-label^="Access "][style*="display: block;"][style*="background: #f9fafb"] {
+    display: block;
+    border-radius: 8px;
+    transition: box-shadow 0.18s ease, background-color 0.18s ease;
+}
+a[aria-label^="Access "][style*="display: block;"][style*="background: #f9fafb"]:hover,
+a[aria-label^="Access "][style*="display: block;"][style*="background: #f9fafb"]:focus-visible {
+    background-color: rgba(59, 130, 246, 0.05);
+    box-shadow: inset 0 0 0 2px rgba(59, 130, 246, 0.45), 0 10px 20px rgba(15, 23, 42, 0.16);
+    outline: none;
+}
+</style>
 <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
-    <div style="margin-bottom: 2rem;"><a style="display: inline-block; background: linear-gradient(135deg, #6b7280, #4b5563); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; margin: 5px; border: none; cursor: pointer;" href="#dashboard">&larr; Back to Dashboard</a></div>
+    <div style="margin-bottom: 2rem;"><a style="display: inline-block; background: linear-gradient(135deg, #6b7280, #4b5563); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; margin: 5px; border: none; cursor: pointer; position: relative;" href="https://tscfl.instructure.com/courses/69042/pages/training-dashboard" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/training-dashboard" data-api-returntype="Page">&larr; Back to Dashboard</a></div>
     <div style="text-align: center; margin-bottom: 2rem;">
         <h1 style="font-size: 2.5rem; color: #111827; margin-bottom: 1rem;">Level 1 Training</h1>
         <p style="font-size: 1.25rem; color: #4b5563; margin-bottom: 1.5rem;">Complete the required modules in each category to earn your Level 1 certification</p>
-        <div style="background: white; border-radius: 12px; overflow: hidden; padding: 1.5rem; margin-bottom: 2rem; max-width: 48rem; margin-left: auto; margin-right: auto;">
-            <h3 style="color: #1f2937; margin-bottom: 1rem;">Overall Level 1 Progress</h3>
-            <div style="width: 100%; background-color: #e5e7eb; border-radius: 9999px; height: 16px; margin-bottom: 0.5rem;">
-                <div id="overallProgress" style="height: 16px; border-radius: 9999px; background: linear-gradient(to right, #3b82f6, #3b82f6); width: 0%;"></div>
+        <div style="background-color: #eff6ff; border-radius: 10px; padding: 1.25rem; margin: 0px auto 2rem; max-width: 48rem; text-align: left; border: 1px solid #bfdbfe;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem;">
+                <div style="padding: 0.25rem 0; text-align: center;">
+                    <h3 style="color: #1f2937; margin: 0 0 0.5rem 0; text-align: center;">Level 1 Requirements</h3>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="color: #6b7280; margin-bottom: 0.5rem;">☐ Required training: 10 hours; 5 TIS</li>
+                        <li style="color: #6b7280; margin-bottom: 0.5rem;">☐ + 25 hours of direct student interaction</li>
+                    </ul>
+                </div>
+                <div style="padding: 0.25rem 0 0.25rem 1rem; border-left: 1px solid #bfdbfe; text-align: center;">
+                    <h3 style="color: #1f2937; margin: 0 0 0.5rem 0; text-align: center;"><span>Prerequisites</span></h3>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="color: #6b7280; margin-bottom: 0.5rem;">✓ Employment as a tutor at TSC Learning Commons</li>
+                        <li style="color: #6b7280;">✓ Basic computer and communication skills</li>
+                    </ul>
+                </div>
             </div>
-            <p style="font-size: 0.875rem; color: #4b5563;"><span id="completedModules">0</span> of <span id="requiredModules">11</span> required modules completed</p>
-            <div style="margin-top: 1rem; font-size: 0.875rem; color: #6b7280;">
-                <p><strong>Total Training:</strong> 10 hours &bull; <strong>TIS Credits:</strong> 5 &bull; <strong>Direct Student Interaction:</strong> 25 hours</p>
-            </div>
-        </div>
-        <div style="background-color: #faf5ff; border: 1px solid #e9d5ff; border-radius: 8px; padding: 1.5rem; margin: 2rem auto; max-width: 48rem;">
-            <h3 style="color: #7c3aed; margin-bottom: 0.5rem;">Prerequisites</h3>
-            <p style="color: #7c3aed;">✓ Employment as a tutor at TSC Learning Commons</p>
-            <p style="color: #7c3aed;">✓ Basic computer and communication skills</p>
         </div>
     </div>
     <div style="display: grid; gap: 2rem;">
@@ -28,64 +57,41 @@
                         <h2 style="font-size: 1.5rem; color: white; margin-bottom: 0.5rem;">Basics</h2>
                         <p style="margin-bottom: 0; color: #bfdbfe;">Complete 4 of 4 modules</p>
                     </div>
-                    <div style="text-align: right;">
-                        <div id="basicsCount" style="font-size: 1.875rem;">0/4</div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 1.875rem; color: #bfdbfe;">4</div>
                         <div style="font-size: 0.875rem;">Required</div>
                     </div>
                 </div>
-                <div style="width: 100%; background-color: #60a5fa; border-radius: 9999px; height: 8px; margin-top: 1rem;">
-                    <div id="basicsProgress" style="height: 8px; border-radius: 9999px; background-color: white; width: 0%;"></div>
-                </div>
             </div>
             <div style="padding: 1.5rem; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
-                <div style="background: #fef2f2; border: 2px solid transparent; border-radius: 8px; padding: 1rem; cursor: pointer;">
+                <a href="https://tscfl.instructure.com/courses/69042/pages/role-of-the-tutor" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/role-of-the-tutor" data-api-returntype="Page" aria-label="Access Role of the Tutor" style="display: block; background: #f9fafb; border: 2px solid transparent; border-radius: 8px; padding: 1rem; text-decoration: none; color: inherit; cursor: pointer;">
                     <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Role of the Tutor</h3>
                     <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Understanding your responsibilities and impact as a tutor</p>
-                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required Module</span>
-                        <div id="role-tutor-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required</span>
+                        <div id="role-tutor-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Access Training</span></div>
                     </div>
-                    <div id="role-tutor-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #3b82f6;">
-                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
-                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Understanding your responsibilities and impact as a tutor.</p>
-                        Mark Complete
-                    </div>
-                </div>
-                <div style="background: #fef2f2; border: 2px solid transparent; border-radius: 8px; padding: 1rem; cursor: pointer;">
+                </a>
+                <a href="https://tscfl.instructure.com/courses/69042/pages/conducting-a-successful-session" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/conducting-a-successful-session" data-api-returntype="Page" aria-label="Access Conducting a Successful Session" style="display: block; background: #f9fafb; border: 2px solid transparent; border-radius: 8px; padding: 1rem; text-decoration: none; color: inherit; cursor: pointer;">
                     <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Conducting a Successful Session</h3>
                     <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Best practices for effective tutoring sessions</p>
-                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required Module</span>
-                        <div id="successful-session-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required</span>
+                        <div id="successful-session-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Access Training</span></div>
                     </div>
-                    <div id="successful-session-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #3b82f6;">
-                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
-                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Best practices for effective tutoring sessions.</p>
-                        Mark Complete
-                    </div>
-                </div>
-                <div style="background: #fef2f2; border: 2px solid transparent; border-radius: 8px; padding: 1rem; cursor: pointer;">
+                </a>
+                <a href="https://tscfl.instructure.com/courses/69042/pages/tutoring-dos-and-donts" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/tutoring-dos-and-donts" data-api-returntype="Page" aria-label="Access Tutoring Dos and Donts" style="display: block; background: #f9fafb; border: 2px solid transparent; border-radius: 8px; padding: 1rem; text-decoration: none; color: inherit; cursor: pointer;">
                     <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Tutoring Do's and Don'ts</h3>
                     <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Essential guidelines for professional tutoring</p>
-                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required Module</span>
-                        <div id="dos-donts-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required</span>
+                        <div id="dos-donts-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Access Training</span></div>
                     </div>
-                    <div id="dos-donts-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #3b82f6;">
-                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
-                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Essential guidelines for professional tutoring.</p>
-                        Mark Complete
-                    </div>
-                </div>
-                <div style="background: #fef2f2; border: 2px solid transparent; border-radius: 8px; padding: 1rem; cursor: pointer;">
+                </a>
+                <a href="https://tscfl.instructure.com/courses/69042/pages/administrative-policies-record-keeping-and-reporting" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/administrative-policies-record-keeping-and-reporting" data-api-returntype="Page" aria-label="Access Administrative Policies Record Keeping and Reporting" style="display: block; background: #f9fafb; border: 2px solid transparent; border-radius: 8px; padding: 1rem; text-decoration: none; color: inherit; cursor: pointer;">
                     <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Administrative Policies, Record Keeping and Reporting</h3>
                     <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Understanding documentation and reporting requirements</p>
-                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required Module</span>
-                        <div id="admin-policies-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required</span>
+                        <div id="admin-policies-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Access Training</span></div>
                     </div>
-                    <div id="admin-policies-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #3b82f6;">
-                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
-                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Understanding documentation and reporting requirements.</p>
-                        Mark Complete
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
         <div style="background: white; border-radius: 12px; overflow: hidden;">
@@ -93,54 +99,29 @@
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <div>
                         <h2 style="font-size: 1.5rem; color: white; margin-bottom: 0.5rem;">Communication</h2>
-                        <p style="margin-bottom: 0; color: #bfdbfe;">Complete 2 of 3 modules</p>
+                        <p style="margin-bottom: 0; color: #bfdbfe;">Complete 2 of 2 modules</p>
                     </div>
-                    <div style="text-align: right;">
-                        <div id="communicationCount" style="font-size: 1.875rem;">0/2</div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 1.875rem; color: #bfdbfe;">2</div>
                         <div style="font-size: 0.875rem;">Required</div>
                     </div>
                 </div>
-                <div style="width: 100%; background-color: #60a5fa; border-radius: 9999px; height: 8px; margin-top: 1rem;">
-                    <div id="communicationProgress" style="height: 8px; border-radius: 9999px; background-color: white; width: 0%;"></div>
-                </div>
             </div>
             <div style="padding: 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
-                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
+                <a href="https://tscfl.instructure.com/courses/69042/pages/active-listening-and-responding" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/active-listening-and-responding" data-api-returntype="Page" aria-label="Access Active Listening and Responding" style="display: block; background: #f9fafb; border-radius: 8px; padding: 1rem; border: 2px solid transparent; text-decoration: none; color: inherit; cursor: pointer;">
                     <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Active Listening and Responding</h3>
                     <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Developing effective listening skills for tutoring</p>
-                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
-                        <div id="active-listening-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required</span>
+                        <div id="active-listening-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Access Training</span></div>
                     </div>
-                    <div id="active-listening-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #3b82f6;">
-                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
-                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Developing effective listening skills for tutoring.</p>
-                        Mark Complete
-                    </div>
-                </div>
-                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
-                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Communication Styles and Skills</h3>
-                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Adapting your communication to different learning styles</p>
-                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
-                        <div id="communication-styles-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
-                    </div>
-                    <div id="communication-styles-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #3b82f6;">
-                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
-                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Adapting your communication to different learning styles.</p>
-                        Mark Complete
-                    </div>
-                </div>
-                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
+                </a>
+                <a href="https://tscfl.instructure.com/courses/69042/pages/question-asking-strategies" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/question-asking-strategies" data-api-returntype="Page" aria-label="Access Question Asking Strategies" style="display: block; background: #f9fafb; border-radius: 8px; padding: 1rem; border: 2px solid transparent; text-decoration: none; color: inherit; cursor: pointer;">
                     <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Question Asking Strategies</h3>
                     <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Using effective questioning techniques to guide learning</p>
-                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
-                        <div id="question-asking-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required</span>
+                        <div id="question-asking-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Access Training</span></div>
                     </div>
-                    <div id="question-asking-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #3b82f6;">
-                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
-                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Using effective questioning techniques to guide learning.</p>
-                        Mark Complete
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
         <div style="background: white; border-radius: 12px; overflow: hidden;">
@@ -148,54 +129,29 @@
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <div>
                         <h2 style="font-size: 1.5rem; color: white; margin-bottom: 0.5rem;">Learning or Studying</h2>
-                        <p style="margin-bottom: 0; color: #bfdbfe;">Complete 2 of 3 modules</p>
+                        <p style="margin-bottom: 0; color: #bfdbfe;">Complete 2 of 2 modules</p>
                     </div>
-                    <div style="text-align: right;">
-                        <div id="learningCount" style="font-size: 1.875rem;">0/2</div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 1.875rem; color: #bfdbfe;">2</div>
                         <div style="font-size: 0.875rem;">Required</div>
                     </div>
                 </div>
-                <div style="width: 100%; background-color: #60a5fa; border-radius: 9999px; height: 8px; margin-top: 1rem;">
-                    <div id="learningProgress" style="height: 8px; border-radius: 9999px; background-color: white; width: 0%;"></div>
-                </div>
             </div>
             <div style="padding: 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
-                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
-                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Goal Setting and Planning</h3>
-                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Helping students set and achieve academic goals</p>
-                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
-                        <div id="goal-setting-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
-                    </div>
-                    <div id="goal-setting-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #3b82f6;">
-                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
-                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Helping students set and achieve academic goals.</p>
-                        Mark Complete
-                    </div>
-                </div>
-                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
+                <a href="https://tscfl.instructure.com/courses/69042/pages/course-and-syllabus-analysis" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/course-and-syllabus-analysis" data-api-returntype="Page" aria-label="Access Course and Syllabus Analysis" style="display: block; background: #f9fafb; border-radius: 8px; padding: 1rem; border: 2px solid transparent; text-decoration: none; color: inherit; cursor: pointer;">
                     <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Course &amp; Syllabus Analysis</h3>
                     <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Understanding course structure and requirements</p>
-                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
-                        <div id="syllabus-analysis-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required</span>
+                        <div id="syllabus-analysis-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Access Training</span></div>
                     </div>
-                    <div id="syllabus-analysis-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #3b82f6;">
-                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
-                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Understanding course structure and requirements.</p>
-                        Mark Complete
-                    </div>
-                </div>
-                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
+                </a>
+                <a href="https://tscfl.instructure.com/courses/69042/pages/time-management-for-tutors-and-tutees" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/time-management-for-tutors-and-tutees" data-api-returntype="Page" aria-label="Access Time Management for Tutors and Tutees" style="display: block; background: #f9fafb; border-radius: 8px; padding: 1rem; border: 2px solid transparent; text-decoration: none; color: inherit; cursor: pointer;">
                     <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Time Management for Tutors &amp; Tutees</h3>
                     <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Effective time management strategies for both parties</p>
-                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
-                        <div id="time-management-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required</span>
+                        <div id="time-management-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Access Training</span></div>
                     </div>
-                    <div id="time-management-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #3b82f6;">
-                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
-                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Effective time management strategies for both parties.</p>
-                        Mark Complete
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
         <div style="background: white; border-radius: 12px; overflow: hidden;">
@@ -203,42 +159,22 @@
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <div>
                         <h2 style="font-size: 1.5rem; color: white; margin-bottom: 0.5rem;">Ethics and Equity</h2>
-                        <p style="margin-bottom: 0; color: #bfdbfe;">Complete 2 of 2 modules</p>
+                        <p style="margin-bottom: 0; color: #bfdbfe;">Complete 1 of 1 modules</p>
                     </div>
-                    <div style="text-align: right;">
-                        <div id="ethicsCount" style="font-size: 1.875rem;">0/2</div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 1.875rem; color: #bfdbfe;">1</div>
                         <div style="font-size: 0.875rem;">Required</div>
                     </div>
                 </div>
-                <div style="width: 100%; background-color: #60a5fa; border-radius: 9999px; height: 8px; margin-top: 1rem;">
-                    <div id="ethicsProgress" style="height: 8px; border-radius: 9999px; background-color: white; width: 0%;"></div>
-                </div>
             </div>
             <div style="padding: 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
-                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
-                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Compliance with the Privacy Act (FERPA)</h3>
-                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Understanding student privacy rights and regulations</p>
-                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
-                        <div id="ferpa-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                <a href="https://tscfl.instructure.com/courses/69042/pages/compliance-with-the-privacy-act-ferpa" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/compliance-with-the-privacy-act-ferpa" data-api-returntype="Page" aria-label="Access Title IX and Compliance with the Privacy Act FERPA" style="display: block; background: #f9fafb; border-radius: 8px; padding: 1rem; border: 2px solid transparent; text-decoration: none; color: inherit; cursor: pointer;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Title IX and Compliance with the Privacy Act (FERPA)</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Understanding Title IX requirements, prevention, and student privacy rights.</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required</span>
+                        <div id="ferpa-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Access Training</span></div>
                     </div>
-                    <div id="ferpa-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #3b82f6;">
-                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
-                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Understanding student privacy rights and regulations.</p>
-                        Mark Complete
-                    </div>
-                </div>
-                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
-                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Title IX and/or Sexual Harassment</h3>
-                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Understanding Title IX requirements and prevention</p>
-                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
-                        <div id="title-ix-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
-                    </div>
-                    <div id="title-ix-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #3b82f6;">
-                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
-                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Understanding Title IX requirements and prevention.</p>
-                        Mark Complete
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
         <div style="background: white; border-radius: 12px; overflow: hidden;">
@@ -248,49 +184,25 @@
                         <h2 style="font-size: 1.5rem; color: white; margin-bottom: 0.5rem;">Required Electives</h2>
                         <p style="margin-bottom: 0; color: #bfdbfe;">Complete 1 of 1 modules</p>
                     </div>
-                    <div style="text-align: right;">
-                        <div id="electivesCount" style="font-size: 1.875rem;">0/1</div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 1.875rem; color: #bfdbfe;">1</div>
                         <div style="font-size: 0.875rem;">Required</div>
                     </div>
                 </div>
-                <div style="width: 100%; background-color: #60a5fa; border-radius: 9999px; height: 8px; margin-top: 1rem;">
-                    <div id="electivesProgress" style="height: 8px; border-radius: 9999px; background-color: white; width: 0%;"></div>
-                </div>
             </div>
             <div style="padding: 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
-                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; cursor: pointer; border: 2px solid transparent;">
+                <a href="https://tscfl.instructure.com/courses/69042/pages/referral-skills" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/referral-skills" data-api-returntype="Page" aria-label="Access Referral Skills" style="display: block; background: #f9fafb; border-radius: 8px; padding: 1rem; border: 2px solid transparent; text-decoration: none; color: inherit; cursor: pointer;">
                     <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Referral Skills</h3>
                     <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Knowing when and how to refer students to other resources</p>
-                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #6b7280; font-size: 0.75rem;">Elective Option</span>
-                        <div id="referral-skills-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Not Started</span></div>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required</span>
+                        <div id="referral-skills-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Access Training</span></div>
                     </div>
-                    <div id="referral-skills-content" style="display: none; margin-top: 1rem; padding: 1rem; background: #faf5ff; border-radius: 8px; border-left: 4px solid #3b82f6;">
-                        <h4 style="font-size: 1rem; color: #374151; margin-bottom: 0.5rem;">Module Content:</h4>
-                        <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Knowing when and how to refer students to other resources.</p>
-                        Mark Complete
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
-    <div style="margin-top: 3rem; text-align: center;">
-        <div id="completionMessage" style="display: none; background-color: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; padding: 1rem 1.5rem; border-radius: 8px; max-width: 48rem; margin: 0 auto;">
-            <h3 style="color: #166534; font-size: 1.125rem; margin-bottom: 0.5rem;">🎉 Congratulations!</h3>
-            <p style="color: #166534; margin-bottom: 1rem;">You've completed all required modules for Level 1 certification. Next step: accumulate 25 hours of direct student interaction and request a <strong>Badge &amp; Certification Review</strong>.</p>
-            Return to Dashboard
-        </div>
+    <div style="background-color: #eff6ff; border-radius: 10px; padding: 0.75rem 1rem; margin: 2rem auto 0px; max-width: 48rem; text-align: center; border: 1px solid #bfdbfe;">
+        <p style="font-size: 0.875rem; color: #1d4ed8; margin: 0;">Certificates are issued upon completion by supervisor.</p>
     </div>
-    <div style="background-color: #faf5ff; border: 1px solid #e9d5ff; border-radius: 8px; padding: 1.5rem; margin: 2rem auto; max-width: 48rem;">
-        <h3 style="color: #7c3aed; margin-bottom: 0.5rem;">📘 Level 1 Canvas Instructions</h3>
-        <p style="color: #7c3aed;">Level 1 provides the foundation for effective tutoring.</p>
-        <ul style="color: #7c3aed; padding-left: 1.25rem;">
-            <li>All "Basics" modules are required (4 modules)</li>
-            <li>Choose 2 modules from "Communication" category (3 available)</li>
-            <li>Choose 2 modules from "Learning or Studying" category (3 available)</li>
-            <li>Choose 2 modules from "Ethics and Equity" category (2 available)</li>
-            <li>Complete 1 module from "Required Electives" category (1 available)</li>
-            <li>Click on any module to view its content and mark it complete</li>
-            <li>Progress is automatically saved and synced with the dashboard</li>
-        </ul>
-    </div>
+    <div style="margin-top: 2rem; text-align: center;"><a style="display: inline-block; background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; cursor: pointer; border: medium none currentcolor;" href="https://tscfl.instructure.com/courses/69042/pages/training-dashboard" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/training-dashboard" data-api-returntype="Page">&larr; Back to Dashboard</a></div>
 </div>

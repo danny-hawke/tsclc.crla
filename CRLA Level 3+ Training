@@ -1,0 +1,68 @@
+<div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+    <div style="margin-bottom: 2rem;"><a style="display: inline-block; background: linear-gradient(135deg, #6b7280, #4b5563); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; margin: 5px; cursor: pointer; border: medium none currentcolor;" href="https://tscfl.instructure.com/courses/69042/pages/training-dashboard" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/training-dashboard" data-api-returntype="Page">&larr; Back to Dashboard</a></div>
+    <div style="text-align: center; margin-bottom: 2rem;">
+        <h1 style="font-size: 2.5rem; color: #111827; margin-bottom: 1rem;">Level 3 Emerging Leader</h1>
+        <p style="font-size: 1.25rem; color: #4b5563; margin-bottom: 1.5rem;">Complete all required modules to earn your Emerging Leader designation</p>
+        <div style="background-color: #fffbeb; border-radius: 10px; padding: 1.25rem; margin: 0px auto 2rem; max-width: 48rem; text-align: left; border: 1px solid #fde68a;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem;">
+                <div style="padding: 0.25rem 0; text-align: center;">
+                    <h3 style="color: #1f2937; margin: 0 0 0.5rem 0; text-align: center;">Emerging Leader Requirements</h3>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="color: #4b5563; margin-bottom: 0.5rem;">☐ Complete all required modules</li>
+                        <li style="color: #4b5563;">☐ Present the Capstone Project</li>
+                    </ul>
+                </div>
+                <div style="padding: 0.25rem 0 0.25rem 1rem; border-left: 1px solid #fde68a; text-align: center;">
+                    <h3 style="color: #1f2937; margin: 0 0 0.5rem 0; text-align: center;"><span>Prerequisites</span></h3>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="color: #4b5563; margin-bottom: 0.5rem;">✓ Level 1, 2, &amp; 3 Certifications Complete</li>
+                        <li style="color: #4b5563;">✓ 75 hours of direct student interaction</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display: grid; gap: 2rem;">
+        <div style="background: white; border-radius: 12px; overflow: hidden;">
+            <div style="background: linear-gradient(135deg, #f59e0b, #d97706); color: white; padding: 1.5rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="text-align: left;">
+                        <h2 style="font-size: 1.5rem; color: white; margin-bottom: 0.5rem;">Emerging Leader Modules</h2>
+                        <p style="margin-bottom: 0; color: #fef3c7;">Complete all required modules</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 1.875rem; color: #fef3c7;">3</div>
+                        <div style="font-size: 0.875rem; color: #fef3c7;">Required</div>
+                    </div>
+                </div>
+            </div>
+            <div style="padding: 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; border: 2px solid transparent; cursor: pointer;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Training and Supervising Tutors</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Develop supervisory skills to guide, support, and train other tutors.</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required</span>
+                        <div id="emerging-training-supervising-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Access Training</span></div>
+                    </div>
+                </div>
+                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; border: 2px solid transparent; cursor: pointer;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Public Speaking</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Build presentation and speaking skills for leadership settings.</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required</span>
+                        <div id="emerging-public-speaking-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Access Training</span></div>
+                    </div>
+                </div>
+                <div style="background: #f9fafb; border-radius: 8px; padding: 1rem; border: 2px solid transparent; cursor: pointer;">
+                    <h3 style="font-size: 1.125rem; color: #1f2937; margin-bottom: 1rem;">Capstone Project</h3>
+                    <p style="font-size: 0.875rem; color: #4b5563; margin-bottom: 0.75rem;">Complete the culminating project to demonstrate leadership growth.</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"><span style="color: #dc2626; font-size: 0.75rem;">Required</span>
+                        <div id="emerging-capstone-status"><span style="font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background-color: #e5e7eb; color: #374151;">Access Training</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: #fffbeb; border-radius: 10px; padding: 0.75rem 1rem; margin: 2rem auto 0px; max-width: 48rem; text-align: center; border: 1px solid #fde68a;">
+        <p style="font-size: 0.875rem; color: #b45309; margin: 0;">Certificates are issued upon completion by supervisor.</p>
+    </div>
+    <div style="margin-top: 2rem; text-align: center;"><a style="display: inline-block; background: linear-gradient(135deg, #f59e0b, #d97706); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; cursor: pointer; border: medium none currentcolor;" href="https://tscfl.instructure.com/courses/69042/pages/training-dashboard" data-api-endpoint="https://tscfl.instructure.com/api/v1/courses/69042/pages/training-dashboard" data-api-returntype="Page">&larr; Back to Dashboard</a></div>
+</div>
